@@ -1,2 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    text-align: center;
+    padding: 20px;
+}
 
-/* Your CSS Code here. */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+button, a {
+    margin: 10px 5px; /* Space between buttons */
+}
+
+/* Custom styling for full-width warning button */
+#button-5 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Ensuring all buttons have consistent padding */
+.btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Enhancing the disabled button */
+#button-6 {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Ensuring the link button looks distinct */
+#button-8 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
